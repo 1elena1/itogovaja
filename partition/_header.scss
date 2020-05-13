@@ -1,0 +1,67 @@
+.header {
+	background: {
+		image: url(image/goru.jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+	color: $color_white;
+
+	height: 892px;
+	text-align: center;
+	
+
+	
+	.logotip{
+		display: flex;
+		justify-content: space-between;
+		padding: 30px;
+		
+	}
+	
+	&__pric{
+		color: $color_white;
+		text-align: right;
+	}
+	
+	h1{
+		padding-top: 300px;
+	font-style: normal;
+font-weight: 800;
+font-size: 55px;
+line-height: 67px;
+		
+	}
+	
+	p{
+		padding: 30px;
+		font-size: 21px;
+line-height: 26px;
+	}
+	
+	&__item{
+		border-radius: 4px;
+		background-color: $color_white;
+		padding: 20px 35px;
+		color: $color_silver;
+		margin: 30px;
+		text-transform: uppercase;
+		
+	}
+	
+	&__items{
+			border-radius: 4px;
+		background-color: $color_blue;
+		padding: 20px;
+		color: $color_white;
+		text-transform: uppercase;
+		
+	}
+	
+	.buttons{
+		padding-top: 30px;
+		
+	}
+
+
+
+}
