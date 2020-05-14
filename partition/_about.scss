@@ -1,0 +1,29 @@
+.about {
+	background-image: url(image/snow.jpg);
+	background-repeat: no-repeat;
+	height: 715px;
+	background-size: cover;
+	
+	
+	&__telefon{
+		position: relative;
+	}
+	
+	img{
+		position: absolute;
+		left: 340px;
+		right: 50px;
+		top: 260px;
+	}
+	
+	h2 {
+		color: $color_white;
+		text-align: center;
+		padding-top: 80px;
+	}
+	
+	p{
+		color: $color_white;
+		text-align: center;
+	}
+}
