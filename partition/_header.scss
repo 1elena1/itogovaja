@@ -5,26 +5,30 @@
 		size: cover;
 	}
 	color: $color_white;
-
+text-align: center;
 	height: 892px;
-	text-align: center;
+	
 	
 
 	
-	.logotip{
+	.logotip {
 		display: flex;
 		justify-content: space-between;
 		padding: 30px;
-		
+			
 	}
 	
-	&__pric{
+	
+	.link a{
 		color: $color_white;
-		text-align: right;
+		margin: 5px;
 	}
+	
+ 
+
 	
 	h1{
-		padding-top: 300px;
+		padding-top: 200px;
 	font-style: normal;
 font-weight: 800;
 font-size: 55px;
@@ -43,7 +47,7 @@ line-height: 26px;
 		background-color: $color_white;
 		padding: 20px 35px;
 		color: $color_silver;
-		margin: 30px;
+		margin-right: 10px;
 		text-transform: uppercase;
 		
 	}
@@ -59,7 +63,8 @@ line-height: 26px;
 	
 	.buttons{
 		padding-top: 30px;
-		
+		display: flex;
+		justify-content: center;
 	}
 
 

@@ -1,42 +1,61 @@
-.information{
+.information {
 
-height: 715px;
-.free{
+	height: 715px;
 	display: flex;
-	justify-content: space-between;
-	margin-top: 400px;
-	
-	
-	.bloc{
-		border-top: 4px solid #6D3F96;
-		margin-right: 30px;
-	}
-	
-	.blocks{
-		border-top: 4px solid #70CBCE;
-margin-right: 30px;
-	}
-	
-	.blockk{
-		border-top: 4px solid #FDC05D;
+	align-items: flex-end;
+
+	.block {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 200px;
 		
 	}
-	
-	h3{
+
+	h3 {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: bold;
-font-size: 17px;
-line-height: 30px;
+		font-size: 17px;
+		line-height: 30px;
 		padding-top: 10px;
+		border-top: 4px solid #FDC05D;
+		
+		
 	}
-	
-	p{
-		font-family:'Raleway', sans-serif;
+.odin{
+			border-top: 4px solid  #6D3F96;
+		}
+	.dva{
+			border-top: 4px solid  #70CBCE;
+		}
+
+
+	p {
+		font-family: 'Raleway', sans-serif;
 		color: $color_silver;
 		font-size: 17px;
-line-height: 22px;
+		line-height: 22px;
 	}
 }
-	
-	
-	}
+
+
+
+//		.bloc {
+//			border-top: 4px solid #70CBCE;
+//			margin-right: 30px;
+//		}
+
+
+//		.blocks {
+//			border-top: 4px solid #70CBCE;
+//			margin-right: 30px;
+//		}
+//
+//		.blockk {
+//			border-top: 4px solid #FDC05D;
+//
+//		}
+//
+//		.linear {
+//			border-top: 4px solid #6D3F96;
+//			margin-right: 30px;
+//		}
