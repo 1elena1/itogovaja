@@ -1,54 +1,55 @@
-.tariffs{
+.tariffs {
 	background-color: #70CBCE;
 	height: 803px;
-//	display: flex;
 	
 
-	
-.Zagolovok{
-padding-top: 80px;
-color: $color_white;
-text-align: center;
-	
-	}
-	h2{
-		font-family: Montserrat;
-font-style: normal;
-font-weight: 800;
-font-size: 40px;
-line-height: 49px;
-
-	}
-	
-	p{
-		font-size: 21px;
-line-height: 26px;
-	}
-	
-	.tarif{
-		background-color: aliceblue;
-		margin: 60px 20px 0 0;
+	.Zagolovok {
+		padding-top: 80px;
+		color: $color_white;
 		text-align: center;
-//		display: flex;
-//		flex-wrap: wrap;
-//align-content: space-around;
 	}
-	
-	ul{
-		background-color: aliceblue;
+
+	h2 {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 40px;
+		line-height: 49px;
 	}
+
+	p {
+		font-size: 21px;
+		line-height: 26px;
+	}
+
+	.tarif {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	
+	}
+
+	ul {
+		background-color: $color_white;
+		
+	}
+
 	li {
-		padding: 10px;
+		padding: 8px;
 	}
-	
-	p{
-		background: rgba(196, 196, 196, 0.3);
+
+	.black {
+		background-color: #231F20;
+		color: $color_white;
 	}
-	
-	
-	
-	
-	
-	
+
+	.silver {
+		background: rgba(196, 196, 196, 0.5);
+	}
+
+	.silvers {
+		background: rgba(0, 0, 0, 0.5);
+	}
+
 }
